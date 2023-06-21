@@ -1,1 +1,1 @@
-var posts=["2023/06/21/Linux基础-Ubuntu系统换国内源/","2023/06/19/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/06/21/Linux基础-Ubuntu系统换国内源/","2023/06/19/hello-world/","2023/06/21/计算机组成原理-计算机系统概述/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

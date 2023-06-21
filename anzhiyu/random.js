@@ -1,0 +1,1 @@
+var posts=["2023/06/21/Linux基础-Ubuntu系统换国内源/","2023/06/19/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

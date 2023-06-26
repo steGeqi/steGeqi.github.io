@@ -2,6 +2,7 @@
 title: Linux基础-Ubuntu系统换国内源
 date: 2023-06-21 12:49:27
 tags: Linux
+categories: Linux
 cover: https://pica.zhimg.com/v2-1d1311ab9fed3c3cd044ac758607781a_1440w.jpg?source=172ae18b
 ---
 

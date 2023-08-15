@@ -1,0 +1,39 @@
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 日常生活
+  cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150944788.jpg
+  album_list:
+    - date: 2023-5-21
+      content: 水泉沟 - 龙泉峪长城
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150941475.jpg
+    - date: 2023-5-21
+      content: 水泉沟 - 龙泉峪长城
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150941844.jpg
+- class_name: 一些重要的人
+  path_name: /ImportantPeople
+  type: 1
+  description: 他们像一颗一颗闪耀的星星，出现在我的夜空里
+  cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150936916.jpg
+  album_list:
+    - date: 2023-7-12
+      content: 208的儿子们~
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150934714.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150935464.jpg
+    - date: 2023-6-16
+      content: GIS502
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150936916.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150937910.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150937226.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150937015.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150937357.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150940480.jpg
+    - date: 2021-6-16
+      content: 国旗护卫队的队长们和队友们
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150926984.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150933762.jpg

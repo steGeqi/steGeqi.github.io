@@ -1,0 +1,89 @@
+- class_name: 关于页
+  subtitle: 潮白河的对岸就是希望✨
+  avatarImg: https://i.postimg.cc/8CC3Gd0J/my.jpg
+  name: 戈亓
+  description: （非真名） 是一名 学生、开发者、后端工程师、小林同学的准男朋友
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Hello World!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    item:
+      - EDU,计算机科学与技术
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，廊坊市
+    background: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261619169.PNG
+    backgroundDark: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261619169.PNG
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2001
+    selfInfoTips2: 防灾科技学院
+    selfInfoContent2: 计科/智慧应急研发中心
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大四学生👨‍🎓
+  personalities:
+    author_name: 活动家
+    personality_type: ENFP-T
+    photo_url: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150926984.jpg
+    personality_img: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261659867.png
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 
+    maxim_top: 君子可内敛不可懦弱，
+    maxim_bottom: 面不平可起而论之。
+  buff:
+    buff_tips: 
+    buff_top: 且视他人之疑目如盏盏鬼火
+    buff_bottom: 大胆地去走你的夜路
+  game:
+    game_tips: 爱好游戏
+    game_title: Squad （战术小队）
+    game_uid: "UID: kiven_35"
+    game_bg: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261703929.png
+  comic:
+    comic_tips: 
+    comic_title: 一些有意思的UP主 
+    comic_list:
+      - name: 代码随想录
+        href: https://space.bilibili.com/525438321/?spm_id_from=333.999.0.0
+        cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261723143.png
+      - name: 老师好我叫何同学
+        href: https://space.bilibili.com/163637592?spm_id_from=333.337.0.0
+        cover: https://img1.baidu.com/it/u=842384387,2352527050&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500
+      - name: 没啥用科技
+        href: https://space.bilibili.com/174902557?spm_id_from=333.337.0.0
+        cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261720989.png
+      - name: 魔界造物
+        href: https://space.bilibili.com/74529609/?spm_id_from=333.999.0.0
+        cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261721041.png
+      - name: 我是怪异君
+        href: https://space.bilibili.com/4408538?spm_id_from=333.337.0.0
+        cover: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261715972.png
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://img0.baidu.com/it/u=3093152744,3285677380&fm=253&fmt=auto&app=120&f=JPEG?w=748&h=500
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 五月天、华语流行
+    music_bg: https://image.huanghepiao.com/d/file/20211122/c58052dd265369fcff97e3dfd625ee30.jpg
+    music_link: /music
+  reward_list:

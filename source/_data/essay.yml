@@ -1,0 +1,55 @@
+- title: 即刻短文
+  subTitle: 我的日常生活
+  tips: IT开发者、码农、不专业的军迷、小林同学的准男朋友
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 40
+  home_essay: true
+  top_background: https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308261621965.jpg
+  essay_list:
+    - content: 可是，我还没来得及去看看海。。。。
+      date: 2023/08/24
+      address: 中国-廊坊
+      from: 戈亓
+    - content: 去年 vs 今年 正式告一段落~
+      date: 2023/08/22
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270850317.jpeg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270851248.png
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270843777.png
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270845330.jpg
+      address: 中国-廊坊
+      from: 戈亓
+    - content: 项目上线，告一段落。放假回家！纪念第一次坐飞机~~~
+      date: 2022/12/15
+      address: 中国-北京-大兴机场  ---> 中国-兰州-中川机场
+      image: 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270951298.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270953520.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270953015.jpg
+    - content: 再见了，我的国旗护卫队~
+      date: 2022/10/30
+      address: 中国-廊坊
+      image: 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308271000536.jpg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308271002003.jpeg
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308271004691.jpg
+    - content: 日常干活
+      date: 2022/10/28
+      address: 防灾科技学院
+      image:
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308150947487.jpg
+    - content: 请叫我防灾小库里 ~
+      date: 2022/10/10
+      address: 中国-廊坊
+      video: 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270941210.mp4
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270948310.mp4
+      image: 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270939788.jpg 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270941710.png
+    - content: 出差ing，酒店投影仪好评，简直写代码利器
+      date: 2022/9/30
+      address: 中国-北京
+      image: 
+        - https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308270927852.jpg

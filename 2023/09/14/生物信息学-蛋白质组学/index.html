@@ -1,4 +1,12 @@
-<!DOCTYPE html><html lang="zh" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>生物信息学-蛋白质组学 | GeQi'blog</title><meta name="keywords" content="生物信息学"><meta name="author" content="GeQi"><meta name="copyright" content="GeQi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="生物信息学-蛋白质组学"><meta name="application-name" content="生物信息学-蛋白质组学"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="生物信息学-蛋白质组学"><meta property="og:url" content="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/index.html"><meta property="og:site_name" content="GeQi'blog"><meta property="og:description" content="一、蛋白质组学概述“蛋白质组学“（Proteomics）和“蛋白质组”（Proteome）是澳大利亚科学家 Marc Wilkins 及其同事在 20 世纪 90 年代初提出的，与 “基因组学”（Genomics）和“基因组”（Genome） 相对应，意为“一个基因组、一种生物或一种细胞、组织所表达"><meta property="og:locale" content="zh"><meta property="og:image" content="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg"><meta property="article:author" content="GeQi"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.14/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>生物信息学-蛋白质组学 | GeQi'blog</title><meta name="keywords" content="生物信息学"><meta name="author" content="GeQi"><meta name="copyright" content="GeQi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="生物信息学-蛋白质组学"><meta name="application-name" content="生物信息学-蛋白质组学"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="生物信息学-蛋白质组学"><meta property="og:url" content="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/index.html"><meta property="og:site_name" content="GeQi'blog"><meta property="og:description" content="一、蛋白质组学概述“蛋白质组学“（Proteomics）和“蛋白质组”（Proteome）是澳大利亚科学家 Marc Wilkins 及其同事在 20 世纪 90 年代初提出的，与 “基因组学”（Genomics）和“基因组”（Genome） 相对应，意为“一个基因组、一种生物或一种细胞、组织所表达"><meta property="og:locale" content="zh"><meta property="og:image" content="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg"><meta property="article:author" content="GeQi"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg"><meta name="description" content="一、蛋白质组学概述“蛋白质组学“（Proteomics）和“蛋白质组”（Proteome）是澳大利亚科学家 Marc Wilkins 及其同事在 20 世纪 90 年代初提出的，与 “基因组学”（Genomics）和“基因组”（Genome） 相对应，意为“一个基因组、一种生物或一种细胞、组织所表达"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
   root: '/',
   preloader: {"source":3},
   friends_vue_info: undefined,
@@ -8,8 +16,8 @@
   algolia: undefined,
   localSearch: undefined,
   translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
-  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -28,9 +36,9 @@
     day: '天前',
     month: '个月前'
   },
-  copyright: undefined,
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: GeQi","link":"链接: ","source":"来源: GeQi'blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
   lightbox: 'fancybox',
-  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#3b70fc","bgDark":"#1f1f1f","position":"top-center"},
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
   source: {
     justifiedGallery: {
       js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
@@ -40,9 +48,13 @@
   isPhotoFigcaption: false,
   islazyload: true,
   isAnchor: false,
-  shortcutKey: false
+  shortcutKey: undefined,
+  autoDarkmode: true
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'GeQi'blog',
   title: '生物信息学-蛋白质组学',
+  postAI: '',
+  pageFillDescription: '一、蛋白质组学概述, 1.1 基因组学的产生及研究进展, 1.2 蛋白质组学的产生及研究进展, 1.蛋白质组学的产生, 2.蛋白质组学研究的新进展, 二、蛋白质的大规模分离鉴定技术, 2.1蛋白质二维电泳质谱技术, （一）蛋白质二维电泳技术(2-DE), （二）质谱技术, 2.2一维（二维）色谱-质谱技术, （一）一维电泳（色谱）-质谱技术（HPLC-MS）, （二）二维色谱-质谱技术（2D-HPLCx2FMS）, 2.3 同位素亲和标签技术 (ICAT), 2.4 表面增强激光解吸离子化飞行时间质谱技术（SELDI）, 2.5 蛋白质芯片技术, 2.6 通过数据库搜索鉴定蛋白质, 三、蛋白质的翻译后修饰, 3.1 基于序列的蛋白质翻译后修饰预测, 3.2 在蛋白质组学分析中鉴定翻译后修饰, 四、蛋白质分选, 蛋白质亚细胞定位的计算预测方法, 五、蛋白质相互作用, 5.1  利用实验鉴定蛋白质互作, 5.2 蛋白质互作的预测, （一）根据邻接基因进行互作蛋白的预测, （二）根据基因x2F结构域融合事件进行互作蛋白的预测, （三）根据系统发育谱进行互作蛋白的预测, （四）根据序列的同源性进行互作蛋白的预测, （五）利用多种方法进行互作蛋白的预测一蛋白质组学概述蛋白质组学和蛋白质组是澳大利亚科学家及其同事在世纪年代初提出的与基因组学和基因组相对应意为一个基因组一种生物或一种细胞组织所表达的全套蛋白质组学对生物学和生物体系运作的已汇总全局的研究方式即从整体的角度来研究一个生物体细胞或组织基因组学的产生及研究进展基因组学研究生物基因组和如何利用基因的一门科学基因组学分类结构基因组学全基因组测序功能基因组学基因功能鉴定基因组学的局限基因组学推测的大量蛋白功能未知蛋白功能只能依靠同源基因分析类推和预测一个基因并不代表唯一一种蛋白一个蛋白在转录翻译折叠修饰中可能有无限变化蛋白质无法扩增无法大规模自动化测序蛋白质组学的产生及研究进展蛋白质组学的产生蛋白质本身的存在形式和活动规律如翻译后修饰蛋白质间相互作用及蛋白质构象等问题仍依赖对蛋白质的研究来解决蛋白质组学的研究可望提供精确详细的有关细胞或组织状况的分子描述因为诸如蛋白质合成降解加工修饰的调控过程只有通过蛋白质的直接分析才能揭示因此蛋白质组学应运而生它以细胞内全部蛋白质的存在及其活动方式为研究对象可以说蛋白质组学研究的开展不仅是生命科学研究进入后基因组时代的里程碑也是后基因组时代生命科学研究的核心内容之一蛋白质组学研究的新进展主要有五个领域蛋白质的分离与鉴定蛋白质互作或蛋白质复合体研究蛋白质翻译后修饰分析蛋白质功能鉴定研究蛋白质复合体整体结构分析二蛋白质的大规模分离鉴定技术这种理想的分离方法还应当对不同类型的蛋白质包括酸性碱性疏水性亲水性相对分子质量小相对分子质量大的蛋白质均能有效分离蛋白质二维电泳质谱技术一蛋白质二维电泳技术利用蛋白质的等电点和分子质量的差异连续进行垂直方向的两次电泳将其分离二维电泳和质谱技术联用已成为近年最流行最可靠的蛋白质分离与鉴定技术平台二质谱技术生物质谱技术基质辅助激光解吸电离适用于简单的肽混合物生物质谱技术电喷雾电离液相分离手段如液相色谱和毛细管电泳分析器离子阱飞行时间四极杆傅里叶变换离子回旋共振优点缺点灵敏度高性能稳定具备多级质谱能力质量进度较低优点缺点高灵敏度宽动态范围高分辨率高质量精度操作复杂肽段断裂效率低价格昂贵生物质谱技术在离子化方法上主要有两种软电离技术即基质辅助激光解吸电离和电喷雾电离是在激光脉冲的激发下使样品从基质晶体中挥发并离子化使分析物从溶液相中电离适合与液相分离手段如液相色谱和毛细管电泳联用适于分析简单的肽混合物而液相色谱与的联用适合复杂样品的分析软电离技术的出现拓展了质谱的应用空间而质量分析器的改善也推动了质谱仪技术的发展生物质谱的质量分析器主要有种离子阱飞行时间四极杆和傅里叶变换离子回旋共振它们的结构和性能各不相同每一种都有自己的长处与不足它们可以单独使用也可以互相组合形成功能更强大的仪器通常与质量分析器联用分析肽段的精确质量而常与离子阱或三级四极杆质谱联用通过碰撞诱导解离获取肽段的碎片信息离子阱质谱灵敏度较高性能稳定具备多级质谱能力因此被广泛应用于蛋白质组学研究不足之处是质量精度较低与离子阱相似傅里叶变换离子回旋共振质谱也是一种可以捕获离子的仪器但是其腔体内部为高真空和高磁场环境具有高灵敏度宽动态范围高分辨率和质量精度质量准确度可很容易地小于这使得它可以在一次分析中对数百个完整蛋白质分子进行质量测定和定量的一个重要功能是多元串联质谱与通常的只能选一个母离子的串级质谱方式不同可以同时选择几个母离子进行解离这无疑可以大大增加蛋白质鉴定工作的通量但是它的缺点也很明显如操作复杂肽段断裂效率低价格昂贵等这些缺点限制了它在蛋白质组学中的广泛应用一维二维色谱质谱技术一一维电泳色谱质谱技术一维电泳色谱质谱技术一维电泳结合技术或者蛋白质复合物经酶切后用技术进行分析均被前人的研究证明是有效的蛋白质分离与鉴定策略前者的技术流程是先从生物样本中获得蛋白质混合物然后采用免疫沉淀或免疫亲和的提取方法获得某种蛋白质的复合体再应用技术对蛋白质复合物进行分离染色胶上原位酶切后用分析肽质量指纹谱并鉴定蛋白质后者是对蛋白质复合物直接进行蛋白酶切对获得的肽混合物进行分析通过测定肽片段的序列鉴定蛋白质一维电泳质谱技术目前采用的以为基础的蛋白质分析策略第一维等电聚焦电泳是根据等电点的不同而分离蛋白质第二维电泳是依据相对分子质量的不同再次分离蛋白质在电泳中可以通过标准分子质量标记物获得被分离蛋白质的相对分子质量信息但与质谱技术测定肽段分子质量的方法相比上检测蛋白质相对分子质量的误差大分辨率差更重要的是很难获得翻译后修饰蛋白质相对分子质量变化的准确信息如何精确测定全细胞蛋白质的相对分子质量一直是蛋白质组技术方法研究中的难题最近研究人员报道了一种采用胶条进行等电聚焦电泳然后采用对胶条进行表面直接分析的方法二二维色谱质谱技术采用液相色谱的方法分离蛋白质和多肽有诸多优点速度快一般几个小时可完成全部分离过程而的蛋白质分离一般需由于在溶液状态下样品处理方便快速避免了从胶上回收样品的繁复操作分析过程易于自动化和与质谱联接对各种蛋白质均适用包括疏水性酸性碱性分子质量大于小于的蛋白质等从组织细胞或其他生物样本获得的蛋白质混合物用蛋白酶通常是胰蛋白酶裂解得到的多肽混合物样品进行二维色谱分离质谱分析一般采用电喷雾串联质谱通过测定肽段序列的分子质量对蛋白质进行鉴定二维色谱串联质谱分析策略的流程如下图二维色谱分离蛋白质有多种组合模式第一维色谱一般是离子交换色谱也可用凝胶过滤色谱第二维通常是反相色谱由于反相色谱采用有机溶剂作流动相避免了盐等添加剂对后续质谱分析的影响为了提高二维色谱的分离速度和分辨能力第二维的反相色谱分离系统一般采用较短的色谱柱和较高的流速整个分离系统采用一根离子交换柱与两根反相色谱柱通过多通道阀进行柱切换的模式操作当蛋白质或多肽组分从离子交换色谱柱上洗脱并进入第一根反相色谱柱时第二根反相色谱柱上的组分正被洗脱进入检测系统两根反相色谱柱的轮流切换使得被分离物可以富集在柱的顶端适当调整柱切换速度与流速可以达到每分钟一个循环获得一个色谱图减小死体积采用细内径的管路并尽可能减少管路的长度荧光差异凝胶电泳技术是对在技术上的改进结合了多重荧光分析的方法在同一块胶上共同分离多个分别由不同荧光标记的样品并第一次引入了内标的概念两种样品中的蛋白质采用不同的荧光标记后混合进行用来检测蛋白质在两种样品中表达情况极大地提高了结果的准确性可靠性和可重复性在技术中每个蛋白质点都有它自己的内标并且软件可全自动根据每个蛋白质点的内标对其表达量进行校准保证所检测到的蛋白质丰度变化是真实的技术已经在各种样品中得到应用主要用于功能蛋白质组学同位素亲和标签技术同位素亲和标签技术是近年发展起来的一种用于蛋白质分离与鉴定的新方法方法的关键是试剂的应用该试剂由部分组成中间部分被称为连接部分分别连接个氢原子或重氢原子前者称为轻链试剂后者称为重链试剂中间部分一头连接一个巯基的特异反应基团可与蛋白质中半胱氨酸上的巯基连接从而实现对蛋白质的标记另一头连接生物素用于标记蛋白质或多肽链的亲和纯化当采用技术进行蛋白质的定量分离与鉴定时首先要对蛋白质进行标记然后进行蛋白质酶切对蛋白质酶切后的多肽混合物进行亲和色谱分离混合物中仅仅被同位素标记的肽段能够被色谱柱保留并进入质谱进行分析其他大量肽段都不被色谱柱保留通过比较标记了重链和轻链试剂肽段在质谱图中信号的强度可以实现对差异表达蛋白质的定量分析采用串联质谱技术测定肽段的序列可以检测到肽段的分子质量并鉴定出蛋白质的优点在于其可以对混合样品来自正常和病变细胞或组织等直接测试能够快速定性和定量鉴定低丰度蛋白质尤其是膜蛋白等疏水性蛋白质等还可以快速找出重要功能蛋白质疾病相关蛋白质及生物标志分子表面增强激光解吸离子化飞行时间质谱技术表面增强激光解吸离子化飞行时间质谱技术简称飞行质谱技术飞行质谱技术的基本原理是将样品经过简单的预处理后直接滴加到表面经过特殊修饰的芯片上利用激光脉冲辐射使芯池中的分析物解吸形成荷电离子根据不同质荷比这些离子在仪器场中飞行的时间长短不一由此绘制出一张质谱图来该图经计算机软件处理还可形成模拟谱图同时直接显示样品中各种蛋白质的分子质量含量等信息比较两个样品之间的差异蛋白质也可获得样品的蛋白质总览技术分析的样品不需用液相色谱或气相色谱预先纯化因此可用于分析复杂的生物样品而且技术可以分析疏水性蛋白质等电点过高或过低的蛋白质及低分子质量的蛋白质还可以发现在未经处理的样品中许多被掩盖的低丰度蛋白质增加发现生物标志物的机会技术只需少量样品在较短时间内就可以得到结果且试验重复性好适合临床诊断及大规模筛选与疾病相关生物标志物特别是它可直接检测不经处理的尿液血液脑脊液关节腔滑液支气管洗出液细胞裂解液和各种分泌物等从而可检测获得样品中目标蛋白质的分子质量等电点糖基化位点与磷酸化位点等信息蛋白质芯片技术蛋白质芯片技术是一种高通量的蛋白质功能分析技术与芯片微阵列的原理相类似蛋白质芯片在固体支持物上采用了高密度的网格来固定整个蛋白质组从而得以对特定样品中的表达蛋白进行大规模的分析蛋白质芯片的类型包括抗原芯片抗体芯片以及各种各样以蛋白质底物或核苷酸为捕获基团的芯片它们可以用来进行蛋白质表达谱分析研究蛋白质与蛋白质的相互作用甚至蛋白质及配体蛋白质之间的相互作用通过数据库搜索鉴定蛋白质利用数据库匹配的方式进行肽段鉴定时都遵循一个基本假设即被研究物种的所有蛋白质序列都是已知并存储于数据库中的因此这种方法只在一些进行了完全测序且基因组注释比较完善的模式生物中应用得比较好而在非模式生物中的应用则非常有限是由瑞士生物信息研究中心维护的一个整合全面的蛋白质组学信息的网络服务器提供了众多的蛋白质序列序列特征结构功能注释等方面信息与分析工具在其蛋白质组学工具中就包含了等多种与质谱数据相关的肽段质量指纹数据分析工具三蛋白质的翻译后修饰蛋白质在翻译合成后需要经过一些功能基团的共价修饰才能获得相应的活性结构与功能这个生物学过程称为蛋白质翻译后修饰目前已知的蛋白质翻译后修饰类型超过种常见的类型包括磷酸化糖基化泛素化乙酰化和硫酸盐化等蛋白质的翻译后修饰通过改变分子大小疏水性及蛋白质的整体构象等对蛋白质生物学功能的正常行使产生影响它可以直接影响到蛋白质之间的相互作用以及蛋白质在不同的亚细胞区域的分布基于序列的蛋白质翻译后修饰预测利用计算机辅助从蛋白质序列中预测可能的翻译后修饰情况对于蛋白质组数据的生物学注释是非常必要的发生翻译后修饰的底物蛋白质具有被特定修饰酶所识别的序列基序这些序列基序通常只包含个残基倾向存在于没有固定三维结构的非球形区域内并且区域内包含的都是一些有极性的小的或者骨架柔韧度较大的残基这样蛋白质翻译后修饰位点才易于与修饰酶互相接近但是如果预测只考虑修饰识别序列基序的话由于其长度过于短小就容易在序列模式匹配中产生过多的假阳性为了减少假阳性的出现在预测中除了修饰位点的序列基序特征外我们还要考虑修饰位点周边环境序列的特点并尽可能地利用一些统计学方法来增加预测的准确性如支持向量机支持向量机是一种与线性或二次判别分析相类似的数据分类方法这种方法将所有的数据映射到一个三维甚至多维空间上然后利用线性或非线性的函数说形成的最佳超平面将真是的信号与噪声进行区别简而言之支持向量机就是将这个修饰位点的预测转化成了以一个分类问题是或不是修饰位点以特定激酶磷酸化位点的预测为例支持向量机采用了已知的激酶磷酸话位点组成特征周边序列组成特征等作为阳性特征将其中不发生磷酸化的丝氨酸苏氨酸酪氨酸残基的周边序列组成特征作为阴性集合支持向量机模型经过充足的周围序列组成的特征的训练之后就可以用来比较准确地识别激酶中的磷酸化位点在蛋白质组学分析中鉴定翻译后修饰翻译后修饰也可以通过实验得到的质谱指纹数据进行鉴定在蛋白质组学服务器工具页面上列出了很多根据质谱分子质量数据来确定翻译后修饰的程序可以用来搜索序列中已知的翻译后修饰位点并且在数据库片段匹配时根据修饰的类型将额外的质量进行整合可以利用试验确定的肽段指纹信息来比较实际测得的肽段质量与其理论值是否存在差异可以预测种不同类型的修饰包括甲基化磷酸化酯化和硫化是另一种特异性针对糖基化进行预测的程序它同样是利用实验确定的肽段指纹信息与理论获得的肽段在质量上的差异进行预测四蛋白质分选除线粒体和植物叶绿体中能合成少量蛋白质外绝大多数的蛋白质均在细胞质基质中的核糖体上开始合成然后运至细胞的特定部位这一过程称蛋白质分选也被称为蛋白质定向转运蛋白质亚细胞定位的计算预测方法要利用蛋白质的氨基酸序列中的信号特征同时还需要诸如表达谱数据系统发育图谱数据库记录描述内容中的上下文及注释词条等额外信息只利用序列进行对库的同源性搜索或者查找与之共同出现的蛋白质结构域是一个基于网络的亚细胞定位信号预测程序它也是最早使用神经网络进行蛋白质分选信号预测的程序之一从第二版开始预测中又加入了另一种机器学习方法隐马尔可夫模型来增加预测的准确性其中神经网络算法包含了两种不同的分数一种是为识别出的信号肽打分另一种是为蛋白酶的断裂位点进行打分而隐马尔可夫模型则用来区分信号肽及将蛋白质插入膜中的端跨膜锚定片段是进行真核生物蛋白质亚细胞定位预测的程序它使用了神经网络方法主要对蛋白质序列的端是否存在下列几种前导肽进行预测叶绿体转运肽线粒体靶肽及分泌途径信号肽是一个年就开发出来的亚细胞定位预测程序它最先采用了决策树的方法进行预测即计算一组来源于定位信号序列的参数并将之与从文献中总结的一系列定位规则进行比较这些规则大部分关注的是现有的各种能够将蛋白质定位于特定细胞区域的序列基序还有一部分规则主要记录了特定信号序列基序的氨基酸组成内容五蛋白质相互作用细胞进行生命活动过程的实质就是蛋白质在一定时空下的相互作用因此描绘出蛋白质间的相互作用是蛋白质组学又一个重要的研究内容蛋白质之间的相互作用不仅包括那些能够形成稳定复合物的强相互作用也包括那些可能只在瞬时发生的弱相互作用其中参与形成复合物的蛋白质要比那些只出现瞬时相互作用的蛋白质表现出更为紧密的表达共调控性质蛋白质蛋白质相互作用的研究在探寻细胞信号转导途径复杂蛋白质结构的建模及理解蛋白质在各种生物化学过程中的作用方面都是非常必要的利用实验鉴定蛋白质互作通过实验鉴定蛋白质的相互作用主要包括遗传学方法生物化学方法和生物物理方法其结果可以在原子互作双组分互作多组分复杂互作及细胞水平等个方面得到表现蛋白质互作的预测一根据邻接基因进行互作蛋白的预测一般说来基因次序在不同的原核生物基因组中的保守性很差如果确实在不同基因组中发现了具有同样邻接关系的基因则它们很可能属于同一个操纵子这是因为在原核生物基因组中功能相关的基因承受着相同的选择压力倾向于在基因组中连在一起构成一个操纵子操纵子中编码的蛋白质通常是功能相关或具有物理互作关系的这种基因之间的邻接关系在物种演化过程中具有一定的保守性可以作为基因产物之间功能关系的指示标识这一预测规则支持了大多数原核生物基因组的互作蛋白的预测但对于真核基因组来说利用基因次序进行互作蛋白的预测不如基因表达中的共调控蛋白有说服力二根据基因结构域融合事件进行互作蛋白的预测基于基因融合事件的互作蛋白预测方法的理论基础是对于一个特定物种中包含了融合结构域的蛋白质家族来说经常会发现它与其他物种中相互分离的两个基因和相对应这类蛋白质就被称为复合蛋白即融合蛋白而它们包含的每一个结构域都被称为成分蛋白这一预测主要是在具有完整基因组序列的物种中进行基因融合事件的鉴定因为这样才能发现不同物种中相对应的同源蛋白如果一个复合蛋白特定地与另一个物种中的两个成分蛋白相似即使这两个成分蛋白的编码基因并不一定相邻但这两个成分蛋白很可能发生相互作用以执行与相同的功能反过来说如果两个祖先基因和编码了相互作用的蛋白质那么在进化的过程中为了加强这种互作的有效性在其他基因组中这两个基因很有可能融合在一起这一方法更进一步的解释是当两个成分蛋白作为结构域在一个蛋白质中融合时它们必须位置非常地接近以执行同样的功能如果这两个结构域存在于两个不同的蛋白质中时为了维持相同的功能它们相互靠近及相互作用的特性也必须维持下来因此研究基因蛋白质的融合事件就可以对蛋白质蛋白质的相互作用进行预测这种利用基因融合事件来揭示其成分蛋白之间的功能相互关系的预测方法被称为方法这种预测原则被证实是相当可信的它已经被成功地应用到从原核到真核生物中大量蛋白质互作的预测中研究表明基因融合事件在代谢蛋白中尤为普遍利用此方法进行预测的局限性在于只能够预测在进化过程中发生融合的蛋白质之间的功能关联不能判断发生融合的蛋白质是否真正发生了物理上的直接接触三根据系统发育谱进行互作蛋白的预测根据系统发育谱的预测方法就是查找不同基因组中直系同源物共同出现及共同缺失的情况即在完全测序的基因组中鉴定每一个蛋白质在每一个基因组中出现及丢失的情况这样就得到一个系统发育谱当比较不同蛋白质的系统发育谱时那些具有相同或相似谱形的蛋白质很可能具有功能上的相关性但是这种根据基因共缺失或共出现的互作蛋白预测方法同样不能确定功能相关的蛋白质之间是否存在物理上的直接接触而且其预测准确性依赖于完成测序的基因组的数量及系统发育谱构建的可靠性镜像树是一种基于系统发育分析的更加定量化的互作蛋白预测方法根据观察互作蛋白的进化距离相似性水平要显著高于那些没有互作关系的蛋白质的进化距离这表明互作蛋白受其功能约束因而其进化过程应该保持一致四根据序列的同源性进行互作蛋白的预测已知的蛋白质互作图谱能够为新测序完成的基因组中蛋白质互作的预测提供必要的信息如果某个基因组中的一对蛋白质是互作蛋白那么它们在另一个基因组中的同源蛋白也可能发生类似的互作这种同源蛋白对被称为互作物这种预测方法依赖于确定正确的直系同源蛋白并且要利用现有的互作蛋白数据库五利用多种方法进行互作蛋白的预测互作基因蛋白搜索工具是一种综合利用了邻接基因基因融合及系统发育谱等证据来进行蛋白质互作预测的数据库及网络服务器最新版本的除了计算预测外还整合了大量实验获得的共表达数据及从文献中挖掘到的蛋白质互作信息经过分析可以给出包括直接及间接的蛋白质蛋白质相互作用的所有证据直接互作是指蛋白质之间发生物理互作的情况而间接相互是指那些功能相关的在同一代谢途径中拥有相同底物的酶类或者指在同一遗传途径中相互具有调控关系的蛋白质包含了来源于个基因组的万个蛋白质的相关信息使用进行计算预测分析时查询序列首先会根据信息进行直系同源物的分组然后序列会在数据库中搜索已知的保守基因连锁模式查找邻接基因基因融合情况及系统发育谱利用一个权重记分系统来评估各个基因组中上述种类型蛋白质相关的显著性以及从实验中获得的互作数据和文献挖掘的信息为了降低假阳性并增加预测的可信度种计算类型的相关蛋白质还会在一个内部参考数据集中做再次的检查的最终结果是返回一个互作蛋白功能相关蛋白列表针对每一个功能相关蛋白都会提供所得到的计算预测实验获得及文献挖掘方面的证据以及一个简单的蛋白质互作功能相关性分数根据其中参与的多个功能相关伴侣情况还能够以交互的形式提供图形化显示的蛋白质结合互作网络及特定的详细信息',
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
@@ -62,71 +74,76 @@
     display: inline !important
   }
 </style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
         }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
         }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
 
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
         }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
         }
       }
-      win.activateLightMode = function () {
+      win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
@@ -148,7 +165,7 @@
               const isNight = hour <= 6 || hour >= 18
               isNight ? activateDarkMode() : activateLightMode()
             }
-            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
               if (saveToLocal.get('theme') === undefined) {
                 e.matches ? activateDarkMode() : activateLightMode()
               }
@@ -165,34 +182,17 @@
         }
       }
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
       }
-    }
-    detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png"/><div class="loading-image-dot"></div><div id="loading-percentage">0%</div></div></div><script>if (GLOBAL_CONFIG.preloader.source == "2" || GLOBAL_CONFIG.preloader.source == "3") {
-  const loadingPercentage = document.getElementById("loading-percentage");
-  let loadingPercentageTimer = setInterval(function() {
-    var progressBar = document.querySelector(".pace-progress");
-    if (!progressBar) return
-    var currentValue = progressBar.getAttribute("data-progress-text");
-    if (currentValue !== loadingPercentage.textContent) {
-      loadingPercentage.textContent = currentValue;
-      if (currentValue === "100%") {
-        clearInterval(loadingPercentageTimer);
-      }
-    }
-  }, 100);
-}
-
-const preloader = {
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
   endLoading: () => {
-    document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded");
   },
   initLoading: () => {
-    document.body.style.overflow = '';
     document.getElementById('loading-box').classList.remove("loaded")
   }
 }
@@ -202,7 +202,7 @@ setTimeout(function(){preloader.endLoading();},10000)
 if (true) {
   document.addEventListener('pjax:send', () => { preloader.initLoading() })
   document.addEventListener('pjax:complete', () => { preloader.endLoading() })
-}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div id="web_box"><div id="web_container"><div id="menu-mask"></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">GeQi'blog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child" style="left:-31px;"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child" style="left:17px;"><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child" style="left:-79px;"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 一些时刻</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="wechat" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="alipay" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> <span>最新评论</span></span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Leetcode/" style="font-size: 1.05rem;">Leetcode<sup>1</sup></a><a href="/tags/Linux/" style="font-size: 1.05rem;">Linux<sup>2</sup></a><a href="/tags/Nginx/" style="font-size: 1.05rem;">Nginx<sup>1</sup></a><a href="/tags/%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95/" style="font-size: 1.05rem;">代码随想录<sup>1</sup></a><a href="/tags/%E5%A4%A7%E5%AD%A6/" style="font-size: 1.05rem;">大学<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 1.05rem;">开发<sup>1</sup></a><a href="/tags/%E6%84%9F%E6%82%9F/" style="font-size: 1.05rem;">感悟<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.05rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 1.05rem;">深度学习<sup>1</sup></a><a href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" style="font-size: 1.05rem;">生物信息学<sup>14</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" style="font-size: 1.05rem;">计算机组成原理<sup>2</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.05rem;">计算机网络<sup>6</sup></a><a href="/tags/%E8%BF%90%E7%BB%B4/" style="font-size: 1.05rem;">运维<sup>2</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">December 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">November 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">October 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">September 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">August 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">June 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">May 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" onclick="anzhiyu.switchDarkMode()" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/">生物信息学</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>生物信息学</span></a></span></div></div><h1 class="post-title">生物信息学-蛋白质组学</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-14T07:05:21.000Z" title="发表于 2023-09-14 15:05:21">2023-09-14</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-18T09:29:39.781Z" title="更新于 2023-09-18 17:29:39">2023-09-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为河北"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>河北</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg"></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、蛋白质组学概述"><a href="#一、蛋白质组学概述" class="headerlink" title="一、蛋白质组学概述"></a>一、蛋白质组学概述</h1><p>“蛋白质组学“（Proteomics）和“蛋白质组”（Proteome）是澳大利亚科学家 Marc Wilkins 及其同事在 20 世纪 90 年代初提出的，与 “基因组学”（Genomics）和“基因组”（Genome） 相对应，意为“<strong>一个基因组、一种生物或一种细胞、组织所表达的全套蛋白质</strong></p>
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">GeQi'blog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 一些时刻</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Leetcode/" style="font-size: 1.05rem;">Leetcode<sup>1</sup></a><a href="/tags/Linux/" style="font-size: 1.05rem;">Linux<sup>2</sup></a><a href="/tags/Nginx/" style="font-size: 1.05rem;">Nginx<sup>1</sup></a><a href="/tags/%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95/" style="font-size: 1.05rem;">代码随想录<sup>1</sup></a><a href="/tags/%E5%A4%A7%E5%AD%A6/" style="font-size: 1.05rem;">大学<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 1.05rem;">开发<sup>1</sup></a><a href="/tags/%E6%84%9F%E6%82%9F/" style="font-size: 1.05rem;">感悟<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.05rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 1.05rem;">深度学习<sup>1</sup></a><a href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" style="font-size: 1.05rem;">生物信息学<sup>14</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" style="font-size: 1.05rem;">计算机组成原理<sup>2</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.05rem;">计算机网络<sup>6</sup></a><a href="/tags/%E8%BF%90%E7%BB%B4/" style="font-size: 1.05rem;">运维<sup>2</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">December 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">November 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">October 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">September 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">August 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">June 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">May 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" itemprop="url">生物信息学</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>生物信息学</span></a></span></div></div><h1 class="post-title" itemprop="name headline">生物信息学-蛋白质组学</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2023-09-14T07:05:21.000Z" title="发表于 2023-09-14 15:05:21">2023-09-14</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2023-09-18T09:29:39.781Z" title="更新于 2023-09-18 17:29:39">2023-09-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为河北"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>河北</span></div></div></div><article class="post-content" id="article-container" itemscope itemtype="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/"><header><a class="post-meta-categories" href="/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" itemprop="url">生物信息学</a><a href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" tabindex="-1" itemprop="url">生物信息学</a><h1 id="CrawlerTitle" itemprop="name headline">生物信息学-蛋白质组学</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">GeQi</span><time itemprop="dateCreated datePublished" datetime="2023-09-14T07:05:21.000Z" title="发表于 2023-09-14 15:05:21">2023-09-14</time><time itemprop="dateCreated datePublished" datetime="2023-09-18T09:29:39.781Z" title="更新于 2023-09-18 17:29:39">2023-09-18</time></header><h1 id="一、蛋白质组学概述"><a href="#一、蛋白质组学概述" class="headerlink" title="一、蛋白质组学概述"></a>一、蛋白质组学概述</h1><p>“蛋白质组学“（Proteomics）和“蛋白质组”（Proteome）是澳大利亚科学家 Marc Wilkins 及其同事在 20 世纪 90 年代初提出的，与 “基因组学”（Genomics）和“基因组”（Genome） 相对应，意为“<strong>一个基因组、一种生物或一种细胞、组织所表达的全套蛋白质</strong></p>
 <ul>
 <li>组学：对生物学和生物体系运作的已汇总全局的研究方式，即<strong>从整体的角度来研究一个生物体、细胞或组织。</strong></li>
 </ul>
@@ -316,7 +316,16 @@ if (true) {
 <li>STRING 利用一个权重记分系统来评估各 个基因组中上述 3 种类型蛋白质相关的显著性，以及从实验中获得的 互作数据和文献挖掘的信息。为了降低假阳性并增加预测的可信度， 3 种计算类型的相关蛋白质还会在一个内部参考数据集中做再次的检查。</li>
 <li>STRING 的最终结果是返回一个互作蛋白（功能相关蛋白）列表， 针对每一个功能相关蛋白都会提供所得到的计算预测、实验获得及文献挖掘方面的证据，以及一个简单的蛋白质互作（功能相关性）分数。 根据其中参与的多个功能相关伴侣情况，STRING 还能够以交互的形 式提供图形化显示的蛋白质结合互作网络及特定的详细信息</li>
 </ul>
-</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">GeQi</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/')">生物信息学-蛋白质组学</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=生物信息学-蛋白质组学&amp;url=https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/&amp;pic=https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="rm.copyPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://stegeqi.github.io" target="_blank">GeQi'blog</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>生物信息学<span class="tagsPageCount">14</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/09/03/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E9%9D%9E%E7%BC%96%E7%A0%81RNA/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">生物信息学-非编码RNA</div></div></a></div><div class="next-post pull-right"><a href="/2023/09/24/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%90%88%E6%88%90%E7%94%9F%E7%89%A9%E5%AD%A6/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">生物信息学-合成生物学</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/10/10/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%88%86%E5%AD%90%E8%BF%9B%E5%8C%96%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%8F%91%E8%82%B2/" title="生物信息学-分子进化与系统发育"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-10-10</div><div class="title">生物信息学-分子进化与系统发育</div></div></a></div><div><a href="/2023/09/24/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%90%88%E6%88%90%E7%94%9F%E7%89%A9%E5%AD%A6/" title="生物信息学-合成生物学"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-09-24</div><div class="title">生物信息学-合成生物学</div></div></a></div><div><a href="/2023/07/16/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9%E5%8E%9F%E7%90%86/" title="生物信息学-序列比对原理"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-07-16</div><div class="title">生物信息学-序列比对原理</div></div></a></div><div><a href="/2023/09/25/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%A4%8D%E4%B9%A0%E9%A2%98%E5%BA%93-%E9%80%89%E6%8B%A9%E9%A2%98/" title="生物信息学-复习题库-选择题"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-09-25</div><div class="title">生物信息学-复习题库-选择题</div></div></a></div><div><a href="/2023/10/05/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E6%96%B0%E4%B8%80%E4%BB%A3%E6%B5%8B%E5%BA%8F%E6%8A%80%E6%9C%AF%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" title="生物信息学-新一代测序技术及其应用"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-10-05</div><div class="title">生物信息学-新一代测序技术及其应用</div></div></a></div><div><a href="/2023/10/05/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" title="生物信息学-生物信息学编程基础"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-10-05</div><div class="title">生物信息学-生物信息学编程基础</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-top" title="点击展开"><div class="card-info-avatar"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-status-box"><div class="author-status"><g-emoji class="g-emoji" alias="writing_hand" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/270d.png">✍️</g-emoji><span>on Studying</span></div></div></div></div><div class="author-info__description"><div style="line-height:1.2;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">只要我一直还在学习，我就能一直理解自己的痛苦，一直与自己的无知、狭隘、偏见、见招拆招.</b></div> <div style="line-height:1.2;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">很多人说要与自己握手言和，但我不要做那样的人，我要拿着石头狠狠打磨我这块石头，一直学习，一直痛苦，一直享受从痛苦的火花里生出的快乐。乘兴而来，直到尽兴而归！</b></div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">GeQi</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/steGeqi" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/674036104?spm_id_from=333.1007.0.0" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">一、蛋白质组学概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8F%8A%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 基因组学的产生及研究进展</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8F%8A%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 蛋白质组学的产生及研究进展</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.蛋白质组学的产生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%9A%84%E6%96%B0%E8%BF%9B%E5%B1%95"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.蛋白质组学研究的新进展</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%84%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%88%86%E7%A6%BB%E9%89%B4%E5%AE%9A%E6%8A%80%E6%9C%AF"><span class="toc-number">2.</span> <span class="toc-text">二、蛋白质的大规模分离鉴定技术</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%8C%E7%BB%B4%E7%94%B5%E6%B3%B3%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.1.</span> <span class="toc-text">2.1蛋白质二维电泳质谱技术</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%8C%E7%BB%B4%E7%94%B5%E6%B3%B3%E6%8A%80%E6%9C%AF-2-DE"><span class="toc-number">2.1.1.</span> <span class="toc-text">（一）蛋白质二维电泳技术(2-DE)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.1.2.</span> <span class="toc-text">（二）质谱技术</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2%E4%B8%80%E7%BB%B4%EF%BC%88%E4%BA%8C%E7%BB%B4%EF%BC%89%E8%89%B2%E8%B0%B1-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.2.</span> <span class="toc-text">2.2一维（二维）色谱-质谱技术</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E4%B8%80%E7%BB%B4%E7%94%B5%E6%B3%B3%EF%BC%88%E8%89%B2%E8%B0%B1%EF%BC%89-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%88HPLC-MS%EF%BC%89"><span class="toc-number">2.2.1.</span> <span class="toc-text">（一）一维电泳（色谱）-质谱技术（HPLC-MS）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E4%BA%8C%E7%BB%B4%E8%89%B2%E8%B0%B1-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%882D-HPLC-MS%EF%BC%89"><span class="toc-number">2.2.2.</span> <span class="toc-text">（二）二维色谱-质谱技术（2D-HPLC&#x2F;MS）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%90%8C%E4%BD%8D%E7%B4%A0%E4%BA%B2%E5%92%8C%E6%A0%87%E7%AD%BE%E6%8A%80%E6%9C%AF-ICAT"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 同位素亲和标签技术 (ICAT)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-%E8%A1%A8%E9%9D%A2%E5%A2%9E%E5%BC%BA%E6%BF%80%E5%85%89%E8%A7%A3%E5%90%B8%E7%A6%BB%E5%AD%90%E5%8C%96%E9%A3%9E%E8%A1%8C%E6%97%B6%E9%97%B4%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%88SELDI%EF%BC%89"><span class="toc-number">2.4.</span> <span class="toc-text">2.4 表面增强激光解吸离子化飞行时间质谱技术（SELDI）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5-%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF"><span class="toc-number">2.5.</span> <span class="toc-text">2.5 蛋白质芯片技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-6-%E9%80%9A%E8%BF%87%E6%95%B0%E6%8D%AE%E5%BA%93%E6%90%9C%E7%B4%A2%E9%89%B4%E5%AE%9A%E8%9B%8B%E7%99%BD%E8%B4%A8"><span class="toc-number">2.6.</span> <span class="toc-text">2.6 通过数据库搜索鉴定蛋白质</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%84%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0"><span class="toc-number">3.</span> <span class="toc-text">三、蛋白质的翻译后修饰</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%9F%BA%E4%BA%8E%E5%BA%8F%E5%88%97%E7%9A%84%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0%E9%A2%84%E6%B5%8B"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 基于序列的蛋白质翻译后修饰预测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%9C%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E5%88%86%E6%9E%90%E4%B8%AD%E9%89%B4%E5%AE%9A%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 在蛋白质组学分析中鉴定翻译后修饰</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%88%86%E9%80%89"><span class="toc-number">4.</span> <span class="toc-text">四、蛋白质分选</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%9A%E7%BB%86%E8%83%9E%E5%AE%9A%E4%BD%8D%E7%9A%84%E8%AE%A1%E7%AE%97%E9%A2%84%E6%B5%8B%E6%96%B9%E6%B3%95"><span class="toc-number">4.1.</span> <span class="toc-text">蛋白质亚细胞定位的计算预测方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8"><span class="toc-number">5.</span> <span class="toc-text">五、蛋白质相互作用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E5%88%A9%E7%94%A8%E5%AE%9E%E9%AA%8C%E9%89%B4%E5%AE%9A%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%92%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">5.1  利用实验鉴定蛋白质互作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%92%E4%BD%9C%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.</span> <span class="toc-text">5.2 蛋白质互作的预测</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A0%B9%E6%8D%AE%E9%82%BB%E6%8E%A5%E5%9F%BA%E5%9B%A0%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.1.</span> <span class="toc-text">（一）根据邻接基因进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%A0%B9%E6%8D%AE%E5%9F%BA%E5%9B%A0-%E7%BB%93%E6%9E%84%E5%9F%9F%E8%9E%8D%E5%90%88%E4%BA%8B%E4%BB%B6%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.2.</span> <span class="toc-text">（二）根据基因&#x2F;结构域融合事件进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%A0%B9%E6%8D%AE%E7%B3%BB%E7%BB%9F%E5%8F%91%E8%82%B2%E8%B0%B1%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.3.</span> <span class="toc-text">（三）根据系统发育谱进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E6%A0%B9%E6%8D%AE%E5%BA%8F%E5%88%97%E7%9A%84%E5%90%8C%E6%BA%90%E6%80%A7%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.4.</span> <span class="toc-text">（四）根据序列的同源性进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%94%EF%BC%89%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.5.</span> <span class="toc-text">（五）利用多种方法进行互作蛋白的预测</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BD%91%E7%BB%9C%E5%B1%82/" title="计算机网络（四）网络层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（四）网络层"/></a><div class="content"><a class="title" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BD%91%E7%BB%9C%E5%B1%82/" title="计算机网络（四）网络层">计算机网络（四）网络层</a><time datetime="2023-12-04T06:23:49.000Z" title="发表于 2023-12-04 14:23:49">2023-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%B8%89%EF%BC%89%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/" title="计算机网络（三）数据链路层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（三）数据链路层"/></a><div class="content"><a class="title" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%B8%89%EF%BC%89%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/" title="计算机网络（三）数据链路层">计算机网络（三）数据链路层</a><time datetime="2023-12-04T06:23:33.000Z" title="发表于 2023-12-04 14:23:33">2023-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%A0%E8%BE%93%E5%B1%82/" title="计算机网络（五）传输层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（五）传输层"/></a><div class="content"><a class="title" href="/2023/11/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%A0%E8%BE%93%E5%B1%82/" title="计算机网络（五）传输层">计算机网络（五）传输层</a><time datetime="2023-11-28T09:14:27.000Z" title="发表于 2023-11-28 17:14:27">2023-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%85%AD%EF%BC%89%E5%BA%94%E7%94%A8%E5%B1%82/" title="计算机网络（六）应用层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（六）应用层"/></a><div class="content"><a class="title" href="/2023/11/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%85%AD%EF%BC%89%E5%BA%94%E7%94%A8%E5%B1%82/" title="计算机网络（六）应用层">计算机网络（六）应用层</a><time datetime="2023-11-12T12:44:29.000Z" title="发表于 2023-11-12 20:44:29">2023-11-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89%E7%89%A9%E7%90%86%E5%B1%82/" title="计算机网络（二）物理层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（二）物理层"/></a><div class="content"><a class="title" href="/2023/11/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89%E7%89%A9%E7%90%86%E5%B1%82/" title="计算机网络（二）物理层">计算机网络（二）物理层</a><time datetime="2023-11-05T12:24:58.000Z" title="发表于 2023-11-05 20:24:58">2023-11-05</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div></div></div><div id="sidebar"><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">14</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child" style="left:-31px;"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child" style="left:17px;"><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child" style="left:-79px;"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 一些时刻</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.14/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.3.1/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">GeQi</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/')">生物信息学-蛋白质组学</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=undefined&amp;url=https://stegeqi.github.io/2023/09/14/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6/&amp;pic=undefined" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://stegeqi.github.io" target="_blank">GeQi'blog</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>生物信息学<span class="tagsPageCount">14</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/09/03/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E9%9D%9E%E7%BC%96%E7%A0%81RNA/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">生物信息学-非编码RNA</div></div></a></div><div class="next-post pull-right"><a href="/2023/09/24/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%90%88%E6%88%90%E7%94%9F%E7%89%A9%E5%AD%A6/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">生物信息学-合成生物学</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2023/10/10/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%88%86%E5%AD%90%E8%BF%9B%E5%8C%96%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%8F%91%E8%82%B2/" title="生物信息学-分子进化与系统发育"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-10-10</div><div class="title">生物信息学-分子进化与系统发育</div></div></a></div><div><a href="/2023/09/24/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%90%88%E6%88%90%E7%94%9F%E7%89%A9%E5%AD%A6/" title="生物信息学-合成生物学"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-09-24</div><div class="title">生物信息学-合成生物学</div></div></a></div><div><a href="/2023/07/16/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9%E5%8E%9F%E7%90%86/" title="生物信息学-序列比对原理"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-07-16</div><div class="title">生物信息学-序列比对原理</div></div></a></div><div><a href="/2023/09/25/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E5%A4%8D%E4%B9%A0%E9%A2%98%E5%BA%93-%E9%80%89%E6%8B%A9%E9%A2%98/" title="生物信息学-复习题库-选择题"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-09-25</div><div class="title">生物信息学-复习题库-选择题</div></div></a></div><div><a href="/2023/10/05/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E6%96%B0%E4%B8%80%E4%BB%A3%E6%B5%8B%E5%BA%8F%E6%8A%80%E6%9C%AF%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" title="生物信息学-新一代测序技术及其应用"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-10-05</div><div class="title">生物信息学-新一代测序技术及其应用</div></div></a></div><div><a href="/2023/06/22/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E5%8F%91%E5%B1%95%E5%8E%86%E5%8F%B2/" title="生物信息学-生物信息学的概念和发展历史"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262201662.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-06-22</div><div class="title">生物信息学-生物信息学的概念和发展历史</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://geqi-blog.oss-cn-beijing.aliyuncs.com/album/202308262203639.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"><div style="line-height:1.2;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">只要我一直还在学习，我就能一直理解自己的痛苦，一直与自己的无知、狭隘、偏见、见招拆招.</b></div> <div style="line-height:1.2;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">很多人说要与自己握手言和，但我不要做那样的人，我要拿着石头狠狠打磨我这块石头，一直学习，一直痛苦，一直享受从痛苦的火花里生出的快乐。乘兴而来，直到尽兴而归！</b></div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">GeQi</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/steGeqi" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/674036104?spm_id_from=333.1007.0.0" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">一、蛋白质组学概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8F%8A%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 基因组学的产生及研究进展</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8F%8A%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 蛋白质组学的产生及研究进展</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%9A%84%E4%BA%A7%E7%94%9F"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.蛋白质组学的产生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%9A%84%E6%96%B0%E8%BF%9B%E5%B1%95"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.蛋白质组学研究的新进展</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%84%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%88%86%E7%A6%BB%E9%89%B4%E5%AE%9A%E6%8A%80%E6%9C%AF"><span class="toc-number">2.</span> <span class="toc-text">二、蛋白质的大规模分离鉴定技术</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%8C%E7%BB%B4%E7%94%B5%E6%B3%B3%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.1.</span> <span class="toc-text">2.1蛋白质二维电泳质谱技术</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%8C%E7%BB%B4%E7%94%B5%E6%B3%B3%E6%8A%80%E6%9C%AF-2-DE"><span class="toc-number">2.1.1.</span> <span class="toc-text">（一）蛋白质二维电泳技术(2-DE)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.1.2.</span> <span class="toc-text">（二）质谱技术</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2%E4%B8%80%E7%BB%B4%EF%BC%88%E4%BA%8C%E7%BB%B4%EF%BC%89%E8%89%B2%E8%B0%B1-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF"><span class="toc-number">2.2.</span> <span class="toc-text">2.2一维（二维）色谱-质谱技术</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E4%B8%80%E7%BB%B4%E7%94%B5%E6%B3%B3%EF%BC%88%E8%89%B2%E8%B0%B1%EF%BC%89-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%88HPLC-MS%EF%BC%89"><span class="toc-number">2.2.1.</span> <span class="toc-text">（一）一维电泳（色谱）-质谱技术（HPLC-MS）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E4%BA%8C%E7%BB%B4%E8%89%B2%E8%B0%B1-%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%882D-HPLC-MS%EF%BC%89"><span class="toc-number">2.2.2.</span> <span class="toc-text">（二）二维色谱-质谱技术（2D-HPLC&#x2F;MS）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%90%8C%E4%BD%8D%E7%B4%A0%E4%BA%B2%E5%92%8C%E6%A0%87%E7%AD%BE%E6%8A%80%E6%9C%AF-ICAT"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 同位素亲和标签技术 (ICAT)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-%E8%A1%A8%E9%9D%A2%E5%A2%9E%E5%BC%BA%E6%BF%80%E5%85%89%E8%A7%A3%E5%90%B8%E7%A6%BB%E5%AD%90%E5%8C%96%E9%A3%9E%E8%A1%8C%E6%97%B6%E9%97%B4%E8%B4%A8%E8%B0%B1%E6%8A%80%E6%9C%AF%EF%BC%88SELDI%EF%BC%89"><span class="toc-number">2.4.</span> <span class="toc-text">2.4 表面增强激光解吸离子化飞行时间质谱技术（SELDI）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5-%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF"><span class="toc-number">2.5.</span> <span class="toc-text">2.5 蛋白质芯片技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-6-%E9%80%9A%E8%BF%87%E6%95%B0%E6%8D%AE%E5%BA%93%E6%90%9C%E7%B4%A2%E9%89%B4%E5%AE%9A%E8%9B%8B%E7%99%BD%E8%B4%A8"><span class="toc-number">2.6.</span> <span class="toc-text">2.6 通过数据库搜索鉴定蛋白质</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%84%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0"><span class="toc-number">3.</span> <span class="toc-text">三、蛋白质的翻译后修饰</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%9F%BA%E4%BA%8E%E5%BA%8F%E5%88%97%E7%9A%84%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0%E9%A2%84%E6%B5%8B"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 基于序列的蛋白质翻译后修饰预测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%9C%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84%E5%AD%A6%E5%88%86%E6%9E%90%E4%B8%AD%E9%89%B4%E5%AE%9A%E7%BF%BB%E8%AF%91%E5%90%8E%E4%BF%AE%E9%A5%B0"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 在蛋白质组学分析中鉴定翻译后修饰</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%88%86%E9%80%89"><span class="toc-number">4.</span> <span class="toc-text">四、蛋白质分选</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%9A%E7%BB%86%E8%83%9E%E5%AE%9A%E4%BD%8D%E7%9A%84%E8%AE%A1%E7%AE%97%E9%A2%84%E6%B5%8B%E6%96%B9%E6%B3%95"><span class="toc-number">4.1.</span> <span class="toc-text">蛋白质亚细胞定位的计算预测方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8"><span class="toc-number">5.</span> <span class="toc-text">五、蛋白质相互作用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E5%88%A9%E7%94%A8%E5%AE%9E%E9%AA%8C%E9%89%B4%E5%AE%9A%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%92%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">5.1  利用实验鉴定蛋白质互作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%BA%92%E4%BD%9C%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.</span> <span class="toc-text">5.2 蛋白质互作的预测</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A0%B9%E6%8D%AE%E9%82%BB%E6%8E%A5%E5%9F%BA%E5%9B%A0%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.1.</span> <span class="toc-text">（一）根据邻接基因进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%A0%B9%E6%8D%AE%E5%9F%BA%E5%9B%A0-%E7%BB%93%E6%9E%84%E5%9F%9F%E8%9E%8D%E5%90%88%E4%BA%8B%E4%BB%B6%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.2.</span> <span class="toc-text">（二）根据基因&#x2F;结构域融合事件进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%A0%B9%E6%8D%AE%E7%B3%BB%E7%BB%9F%E5%8F%91%E8%82%B2%E8%B0%B1%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.3.</span> <span class="toc-text">（三）根据系统发育谱进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E6%A0%B9%E6%8D%AE%E5%BA%8F%E5%88%97%E7%9A%84%E5%90%8C%E6%BA%90%E6%80%A7%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.4.</span> <span class="toc-text">（四）根据序列的同源性进行互作蛋白的预测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%88%E4%BA%94%EF%BC%89%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E4%BA%92%E4%BD%9C%E8%9B%8B%E7%99%BD%E7%9A%84%E9%A2%84%E6%B5%8B"><span class="toc-number">5.2.5.</span> <span class="toc-text">（五）利用多种方法进行互作蛋白的预测</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BD%91%E7%BB%9C%E5%B1%82/" title="计算机网络（四）网络层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（四）网络层"/></a><div class="content"><a class="title" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BD%91%E7%BB%9C%E5%B1%82/" title="计算机网络（四）网络层">计算机网络（四）网络层</a><time datetime="2023-12-04T06:23:49.000Z" title="发表于 2023-12-04 14:23:49">2023-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%B8%89%EF%BC%89%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/" title="计算机网络（三）数据链路层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（三）数据链路层"/></a><div class="content"><a class="title" href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%B8%89%EF%BC%89%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/" title="计算机网络（三）数据链路层">计算机网络（三）数据链路层</a><time datetime="2023-12-04T06:23:33.000Z" title="发表于 2023-12-04 14:23:33">2023-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%A0%E8%BE%93%E5%B1%82/" title="计算机网络（五）传输层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（五）传输层"/></a><div class="content"><a class="title" href="/2023/11/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%A0%E8%BE%93%E5%B1%82/" title="计算机网络（五）传输层">计算机网络（五）传输层</a><time datetime="2023-11-28T09:14:27.000Z" title="发表于 2023-11-28 17:14:27">2023-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%85%AD%EF%BC%89%E5%BA%94%E7%94%A8%E5%B1%82/" title="计算机网络（六）应用层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（六）应用层"/></a><div class="content"><a class="title" href="/2023/11/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E5%85%AD%EF%BC%89%E5%BA%94%E7%94%A8%E5%B1%82/" title="计算机网络（六）应用层">计算机网络（六）应用层</a><time datetime="2023-11-12T12:44:29.000Z" title="发表于 2023-11-12 20:44:29">2023-11-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89%E7%89%A9%E7%90%86%E5%B1%82/" title="计算机网络（二）物理层"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cha-icp.oss-cn-hangzhou.aliyuncs.com/old/images/wenzhang/202112/31/11123761ce7525ae376G8XysD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络（二）物理层"/></a><div class="content"><a class="title" href="/2023/11/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89%E7%89%A9%E7%90%86%E5%B1%82/" title="计算机网络（二）物理层">计算机网络（二）物理层</a><time datetime="2023-11-05T12:24:58.000Z" title="发表于 2023-11-05 20:24:58">2023-11-05</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">14</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 一些时刻</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Leetcode/" style="font-size: 0.88rem;">Leetcode<sup>1</sup></a><a href="/tags/Linux/" style="font-size: 0.88rem;">Linux<sup>2</sup></a><a href="/tags/Nginx/" style="font-size: 0.88rem;">Nginx<sup>1</sup></a><a href="/tags/%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95/" style="font-size: 0.88rem;">代码随想录<sup>1</sup></a><a href="/tags/%E5%A4%A7%E5%AD%A6/" style="font-size: 0.88rem;">大学<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 0.88rem;">开发<sup>1</sup></a><a href="/tags/%E6%84%9F%E6%82%9F/" style="font-size: 0.88rem;">感悟<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 0.88rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 0.88rem;">深度学习<sup>1</sup></a><a href="/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/" style="font-size: 0.88rem;">生物信息学<sup>14</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" style="font-size: 0.88rem;">计算机组成原理<sup>2</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 0.88rem;">计算机网络<sup>6</sup></a><a href="/tags/%E8%BF%90%E7%BB%B4/" style="font-size: 0.88rem;">运维<sup>2</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
 var HoldLog = console.log;
 console.log = function () {};
 let now1 = new Date();
@@ -344,7 +353,7 @@ queueMicrotask(() => {
     "已上线",
     dnum,
     "天",
-    "©2020 By 安知鱼 V1.5.3",
+    "©2020 By 安知鱼 V1.6.12",
   ];
   const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
 
@@ -352,12 +361,12 @@ queueMicrotask(() => {
     Log.bind(
       console,
       `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
-      "color:#3b70fc",
+      "color:#425AEF",
       "",
-      "color:#3b70fc",
-      "color:#3b70fc",
+      "color:#425AEF",
+      "color:#425AEF",
       "",
-      "color:#3b70fc",
+      "color:#425AEF",
       ""
     )
   );
@@ -389,557 +398,43 @@ queueMicrotask(() => {
     console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
   );
 });</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script>(() => {
-  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
-  if ($mermaidWrap.length) {
-    window.runMermaid = () => {
-      window.loadMermaid = true
-      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
 
-      Array.from($mermaidWrap).forEach((item, index) => {
-        const mermaidSrc = item.firstElementChild
-        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
-        const mermaidID = 'mermaid-' + index
-        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
-        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
-          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
         })
-      })
-    }
-
-    const loadMermaid = () => {
-      window.loadMermaid ? runMermaid() : getScript('https://cdn.cbd.int/mermaid@9.1.7/dist/mermaid.min.js').then(runMermaid)
-    }
-
-    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
-  }
-})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "visitor@anheyu.com";</script><script>//动态标题
-let leaveTitle = 'w(ﾟДﾟ)w 不要走！再看看嘛！';
-let backTitle = '♪(^∇^*)欢迎肥来！';
-let OriginTitile = document.title
-let titleTime
-document.addEventListener('visibilitychange', function () {
-  if (document.hidden) {
-    //离开当前页面时标签显示内容
-    document.title = leaveTitle
-    clearTimeout(titleTime)
-  } else {
-    //返回当前页面时标签显示内容
-    document.title = backTitle + OriginTitile
-    //两秒后变回正常标题
-    titleTime = setTimeout(function () {
-      document.title = OriginTitile
-    }, 2000)
-  }
-})</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script>// 初始化函数
-let rm = {};
-
-//禁止图片与超链接拖拽
-let aElements = document.getElementsByTagName("a");
-for (let i = 0; i < aElements.length; i++) {
-  aElements[i].setAttribute("draggable", "false");
-  let imgElements = aElements[i].getElementsByTagName("img");
-  for (let j = 0; j < imgElements.length; j++) {
-    imgElements[j].setAttribute("draggable", "false");
-  }
-}
-
-// 显示菜单
-rm.showRightMenu = function (isTrue, x = 0, y = 0) {
-  console.info(x, y)
-  let rightMenu = document.getElementById("rightMenu");
-  rightMenu.style.top = x + "px";
-  rightMenu.style.left = y + "px";
-  if (isTrue) {
-    rightMenu.style.display = "block";
-    stopMaskScroll();
-  } else {
-    rightMenu.style.display = "none";
-  }
-};
-
-// 隐藏菜单
-rm.hideRightMenu = function () {
-  rm.showRightMenu(false);
-  let rightMenuMask = document.querySelector("#rightmenu-mask");
-  rightMenuMask.style.display = "none";
-};
-
-// 尺寸
-let rmWidth = document.getElementById("rightMenu").offsetWidth;
-let rmHeight = document.getElementById("rightMenu").offsetHeight;
-
-// 重新定义尺寸
-rm.reloadrmSize = function () {
-  rightMenu.style.visibility = "hidden";
-  rightMenu.style.display = "block";
-  // 获取宽度和高度
-  rmWidth = document.getElementById("rightMenu").offsetWidth;
-  rmHeight = document.getElementById("rightMenu").offsetHeight;
-  rightMenu.style.visibility = "visible";
-};
-
-// 获取点击的href
-let domhref = "";
-let domImgSrc = "";
-let globalEvent = null;
-
-var oncontextmenuFunction = function (event) {
-  if (document.body.clientWidth > 768) {
-    let pageX = event.clientX + 10; //加10是为了防止显示时鼠标遮在菜单上
-    let pageY = event.clientY;
-
-    //其他额外菜单
-    const $rightMenuOther = document.querySelector(".rightMenuOther");
-    const $rightMenuPlugin = document.querySelector(".rightMenuPlugin");
-    const $rightMenuCopyText = document.querySelector("#menu-copytext");
-    const $rightMenuPasteText = document.querySelector("#menu-pastetext");
-    const $rightMenuCommentText = document.querySelector("#menu-commenttext");
-    const $rightMenuNewWindow = document.querySelector("#menu-newwindow");
-    const $rightMenuNewWindowImg = document.querySelector("#menu-newwindowimg");
-    const $rightMenuCopyLink = document.querySelector("#menu-copylink");
-    const $rightMenuCopyImg = document.querySelector("#menu-copyimg");
-    const $rightMenuDownloadImg = document.querySelector("#menu-downloadimg");
-    const $rightMenuSearch = document.querySelector("#menu-search");
-    const $rightMenuSearchBaidu = document.querySelector("#menu-searchBaidu");
-    const $rightMenuMusicToggle = document.querySelector("#menu-music-toggle");
-    const $rightMenuMusicBack = document.querySelector("#menu-music-back");
-    const $rightMenuMusicForward = document.querySelector("#menu-music-forward");
-    const $rightMenuMusicPlaylist = document.querySelector("#menu-music-playlist");
-    const $rightMenuMusicCopyMusicName = document.querySelector("#menu-music-copyMusicName");
-
-    let href = event.target.href;
-    let imgsrc = event.target.currentSrc;
-
-    // 判断模式 扩展模式为有事件
-    let pluginMode = false;
-    $rightMenuOther.style.display = "block";
-    globalEvent = event;
-
-    // 检查是否需要复制 是否有选中文本
-    if (selectTextNow && window.getSelection()) {
-      pluginMode = true;
-      $rightMenuCopyText.style.display = "block";
-      $rightMenuCommentText.style.display = "block";
-      $rightMenuSearch.style.display = "block";
-      $rightMenuSearchBaidu.style.display = "block";
-    } else {
-      $rightMenuCopyText.style.display = "none";
-      $rightMenuCommentText.style.display = "none";
-      $rightMenuSearchBaidu.style.display = "none";
-      $rightMenuSearch.style.display = "none";
-    }
-
-    //检查是否右键点击了链接a标签
-    if (href) {
-      pluginMode = true;
-      $rightMenuNewWindow.style.display = "block";
-      $rightMenuCopyLink.style.display = "block";
-      domhref = href;
-    } else {
-      $rightMenuNewWindow.style.display = "none";
-      $rightMenuCopyLink.style.display = "none";
-    }
-
-    //检查是否需要复制图片
-    if (imgsrc) {
-      pluginMode = true;
-      $rightMenuCopyImg.style.display = "block";
-      $rightMenuDownloadImg.style.display = "block";
-      $rightMenuNewWindowImg.style.display = "block";
-      document.getElementById("rightMenu").style.width="12rem"
-      domImgSrc = imgsrc;
-    } else {
-      $rightMenuCopyImg.style.display = "none";
-      $rightMenuDownloadImg.style.display = "none";
-      $rightMenuNewWindowImg.style.display = "none";
-    }
-
-    // 判断是否为输入框
-    if (event.target.tagName.toLowerCase() === "input" || event.target.tagName.toLowerCase() === "textarea") {
-      pluginMode = true;
-      $rightMenuPasteText.style.display = "block";
-    } else {
-      $rightMenuPasteText.style.display = "none";
-    }
-    const navMusicEl = document.querySelector("#nav-music");
-    //判断是否是音乐
-    if (navMusicEl && navMusicEl.contains(event.target)) {
-      pluginMode = true;
-      $rightMenuMusicToggle.style.display = "block";
-      $rightMenuMusicBack.style.display = "block";
-      $rightMenuMusicForward.style.display = "block";
-      $rightMenuMusicPlaylist.style.display = "block";
-      $rightMenuMusicCopyMusicName.style.display = "block";
-    } else {
-      $rightMenuMusicToggle.style.display = "none";
-      $rightMenuMusicBack.style.display = "none";
-      $rightMenuMusicForward.style.display = "none";
-      $rightMenuMusicPlaylist.style.display = "none";
-      $rightMenuMusicCopyMusicName.style.display = "none";
-    }
-
-    // 如果不是扩展模式则隐藏扩展模块
-    if (pluginMode) {
-      $rightMenuOther.style.display = "none";
-      $rightMenuPlugin.style.display = "block";
-    } else {
-      $rightMenuPlugin.style.display = "none";
-    }
-
-    rm.reloadrmSize();
-
-    // 鼠标默认显示在鼠标右下方，当鼠标靠右或靠下时，将菜单显示在鼠标左方\上方
-    if (pageX + rmWidth > window.innerWidth) {
-      pageX -= rmWidth + 10;
-    }
-    if (pageY + rmHeight > window.innerHeight) {
-      pageY -= pageY + rmHeight - window.innerHeight;
-    }
-
-    rm.showRightMenu(true, pageY, pageX);
-    document.getElementById("rightmenu-mask").style.display = "flex";
-    return false;
-  }
-};
-
-// 监听右键初始化
-window.oncontextmenu = oncontextmenuFunction
-
-// 下载图片状态
-rm.downloadimging = false;
-
-// 复制图片到剪贴板
-rm.writeClipImg = function (imgsrc) {
-  console.log("按下复制");
-  rm.hideRightMenu();
-  anzhiyu.snackbarShow("正在下载中，请稍后", false, 10000);
-  if (rm.downloadimging == false) {
-    rm.downloadimging = true;
-    setTimeout(function () {
-      copyImage(imgsrc);
-      anzhiyu.snackbarShow("复制成功！图片已添加盲水印，请遵守版权协议");
-      rm.downloadimging = false;
-    }, "10000");
-  }
-};
-
-function imageToBlob(imageURL) {
-  const img = new Image();
-  const c = document.createElement("canvas");
-  const ctx = c.getContext("2d");
-  img.crossOrigin = "";
-  img.src = imageURL;
-  return new Promise(resolve => {
-    img.onload = function () {
-      c.width = this.naturalWidth;
-      c.height = this.naturalHeight;
-      ctx.drawImage(this, 0, 0);
-      c.toBlob(
-        blob => {
-          // here the image is a blob
-          resolve(blob);
-        },
-        "image/png",
-        0.75
-      );
-    };
-  });
-}
-
-async function copyImage(imageURL) {
-  const blob = await imageToBlob(imageURL);
-  const item = new ClipboardItem({ "image/png": blob });
-  navigator.clipboard.write([item]);
-}
-
-rm.copyUrl = function (id) {
-  const input = document.createElement("input"); // Create a new <input> element
-  input.id = "copyVal"; // Set the id of the new element to "copyVal"
-  document.body.appendChild(input); // Append the new element to the end of the <body> element
-  
-  const text = id;
-  input.value = text;
-  input.select();
-  input.setSelectionRange(0, input.value.length);
-  document.execCommand("copy");
-  
-  input.remove(); // Remove the <input> element from the DOM
-};
-
-function stopMaskScroll() {
-  if (document.getElementById("rightmenu-mask")) {
-    let xscroll = document.getElementById("rightmenu-mask");
-    xscroll.addEventListener(
-      "mousewheel",
-      function (e) {
-        //阻止浏览器默认方法
-        rm.hideRightMenu();
-        // e.preventDefault();
-      },
-      { passive: true }
-    );
-  }
-  if (document.getElementById("rightMenu")) {
-    let xscroll = document.getElementById("rightMenu");
-    xscroll.addEventListener(
-      "mousewheel",
-      function (e) {
-        //阻止浏览器默认方法
-        rm.hideRightMenu();
-        // e.preventDefault();
-      },
-      { passive: true }
-    );
-  }
-}
-
-rm.rightmenuCopyText = function (txt) {
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(txt);
-  }
-  rm.hideRightMenu();
-};
-
-rm.copyPageUrl = function (url) {
-  if (!url) {
-    url = window.location.href;
-  }
-  rm.copyUrl(url);
-  anzhiyu.snackbarShow("复制链接地址成功", false, 2000);
-  rm.hideRightMenu();
-};
-
-rm.sharePage = function () {
-  var content = window.location.href;
-  rm.copyUrl(url);
-  anzhiyu.snackbarShow("复制链接地址成功", false, 2000);
-  rm.hideRightMenu();
-};
-
-// 复制当前选中文本
-var selectTextNow = "";
-document.onmouseup = document.ondblclick = selceText;
-
-function selceText() {
-  var txt;
-  if (document.selection) {
-    txt = document.selection.createRange().text;
-  } else {
-    txt = window.getSelection().toString();
-  }
-  selectTextNow = txt !== "" ? txt : "";
-}
-
-// 读取剪切板
-rm.readClipboard = function () {
-  if (navigator.clipboard) {
-    navigator.clipboard.readText().then(clipText => rm.insertAtCaret(globalEvent.target, clipText));
-  }
-};
-
-// 粘贴文本到焦点
-rm.insertAtCaret = function (elemt, value) {
-  const startPos = elemt.selectionStart,
-    endPos = elemt.selectionEnd;
-  if (document.selection) {
-    elemt.focus();
-    var sel = document.selection.createRange();
-    sel.text = value;
-    elemt.focus();
-  } else {
-    if (startPos || startPos == "0") {
-      var scrollTop = elemt.scrollTop;
-      elemt.value = elemt.value.substring(0, startPos) + value + elemt.value.substring(endPos, elemt.value.length);
-      elemt.focus();
-      elemt.selectionStart = startPos + value.length;
-      elemt.selectionEnd = startPos + value.length;
-      elemt.scrollTop = scrollTop;
-    } else {
-      elemt.value += value;
-      elemt.focus();
-    }
-  }
-};
-
-//粘贴文本
-rm.pasteText = function () {
-  const result = rm.readClipboard() || "";
-  rm.hideRightMenu();
-};
-
-//引用到评论
-rm.rightMenuCommentText = function (txt) {
-  rm.hideRightMenu();
-  const postCommentDom = document.getElementById("post-comment");
-  var domTop = postCommentDom.offsetTop;
-  window.scrollTo(0, domTop - 80);
-  if (txt == "undefined" || txt == "null") txt = "好棒！";
-  function setText() {
-    setTimeout(() => {
-      var input = document.getElementsByClassName("el-textarea__inner")[0];
-      if (!input) setText();
-      let evt = document.createEvent("HTMLEvents");
-      evt.initEvent("input", true, true);
-      let inputValue = replaceAll(txt, "\n", "\n> ");
-      input.value = "> " + inputValue + "\n\n";
-      input.dispatchEvent(evt);
-      input.focus();
-      input.setSelectionRange(-1, -1);
-      if (document.getElementById("comment-tips")) {
-        document.getElementById("comment-tips").classList.add("show");
       }
-    }, 100);
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
   }
-  setText();
-};
 
-//替换所有内容
-function replaceAll(string, search, replace) {
-  return string.split(search).join(replace);
-}
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.cbd.int/mermaid@10.2.4/dist/mermaid.min.js').then(runMermaid)
+  }
 
-// 百度搜索
-rm.searchBaidu = function () {
-  anzhiyu.snackbarShow("即将跳转到百度搜索", false, 2000);
-  setTimeout(function () {
-    window.open("https://www.baidu.com/s?wd=" + selectTextNow);
-  }, "2000");
-  rm.hideRightMenu();
-};
+  anzhiyu.addGlobalFn('themeChange', runMermaid, 'mermaid')
 
-//分享链接
-rm.copyLink = function () {
-  rm.rightmenuCopyText(domhref);
-  anzhiyu.snackbarShow("已复制链接地址");
-};
-
-function addRightMenuClickEvent() {
-  // 添加点击事件
-  document.getElementById("menu-backward").addEventListener("click", function () {
-  window.history.back();
-    rm.hideRightMenu();
-  });
-
-  document.getElementById("menu-forward").addEventListener("click", function () {
-    window.history.forward();
-    rm.hideRightMenu();
-  });
-
-  document.getElementById("menu-refresh").addEventListener("click", function () {
-    window.location.reload();
-  });
-
-  document.getElementById("menu-top").addEventListener("click", function () {
-    anzhiyu.scrollToDest(0, 500);
-    rm.hideRightMenu();
-  });
-
-  const menuLinks = document.querySelectorAll(".menu-link");
-  menuLinks.forEach(function (link) {
-    link.addEventListener("click", rm.hideRightMenu);
-  });
-
-  document.getElementById("menu-darkmode").addEventListener("click", anzhiyu.switchDarkMode);
-
-  document.getElementById("menu-home") && document.getElementById("menu-home").addEventListener("click", function () {
-    window.location.href = window.location.origin;
-  });
-
-  document.getElementById("menu-randomPost").addEventListener("click", function () {
-    toRandomPost();
-  });
-
-  document.getElementById("menu-commentBarrage").addEventListener("click", anzhiyu.switchCommentBarrage);
-
-  document.getElementById("rightmenu-mask").addEventListener("click", rm.hideRightMenu);
-
-  document.getElementById("rightmenu-mask").addEventListener("contextmenu", function (event) {
-    rm.hideRightMenu();
-    event.preventDefault(); // Prevent the default context menu from appearing
-  });
-
-  document.getElementById("menu-copy").addEventListener("click", rm.copyPageUrl);
-
-  document.getElementById("menu-pastetext").addEventListener("click", rm.pasteText);
-
-  document.getElementById("menu-copytext").addEventListener("click", function () {
-    rm.rightmenuCopyText(selectTextNow);
-    anzhiyu.snackbarShow("复制成功，复制和转载请标注本文地址");
-  });
-
-  document.getElementById("menu-commenttext").addEventListener("click", function () {
-    rm.rightMenuCommentText(selectTextNow);
-  });
-
-  document.getElementById("menu-newwindow").addEventListener("click", function () {
-    window.open(domhref, "_blank");
-    rm.hideRightMenu();
-  });
-
-  document.getElementById("menu-copylink").addEventListener("click", rm.copyLink);
-
-  document.getElementById("menu-downloadimg").addEventListener("click", function () {
-    anzhiyu.downloadImage(domImgSrc, "anzhiyu");
-  });
-
-  document.getElementById("menu-newwindowimg").addEventListener("click", function () {
-    window.open(domImgSrc, "_blank");
-    rm.hideRightMenu();
-  });
-
-  document.getElementById("menu-copyimg").addEventListener("click", function () {
-    rm.writeClipImg(domImgSrc);
-  });
-
-  document.getElementById("menu-searchBaidu").addEventListener("click", rm.searchBaidu);
-
-  //音乐
-  document.getElementById("menu-music-toggle").addEventListener("click", anzhiyu.musicToggle);
-
-  document.getElementById("menu-music-back").addEventListener("click", anzhiyu.musicSkipBack);
-
-  document.getElementById("menu-music-forward").addEventListener("click", anzhiyu.musicSkipForward);
-
-  document.getElementById("menu-music-copyMusicName").addEventListener("click", function () {
-    rm.rightmenuCopyText(anzhiyu.musicGetName());
-    anzhiyu.snackbarShow("复制歌曲名称成功", false, 3000);
-  });
-
-}
-
-addRightMenuClickEvent();</script><script data-pjax>var themeColorMeta = document.querySelector('meta[name="theme-color"]');
-var pageHeaderEl = document.getElementById("page-header");
-var navMusicEl = document.getElementById("nav-music");
-var consoleEl = document.getElementById("console");
-// 已随机的歌曲
-var selectRandomSong = [];
-// 音乐默认声音大小
-var musicVolume = 0.8;
-// 是否切换了周杰伦音乐列表
-var changeMusicListFlag = false;
-// 当前默认播放列表
-var defaultPlayMusicList = [];
-
-document.getElementById("page-name").innerText = document.title.split(" | GeQi'blog")[0];
-anzhiyu.initIndexEssay();
-anzhiyu.changeTimeInEssay();
-anzhiyu.removeBodyPaceClass();
-anzhiyu.qrcodeCreate();
-anzhiyu.changeTimeInAlbumDetail();
-anzhiyu.reflashEssayWaterFall();
-anzhiyu.sayhi();
-anzhiyu.stopImgRightDrag();
-anzhiyu.addNavBackgroundInit();
-anzhiyu.setValueToBodyType();
-anzhiyu.catalogActive();
-anzhiyu.tagsPageActive();
-anzhiyu.categoriesBarActive();
-anzhiyu.topCategoriesBarScroll();
-anzhiyu.switchRightClickMenuHotReview();
-anzhiyu.getCustomPlayList();
-anzhiyu.addEventListenerConsoleMusicList(false);
-setTimeout(() => {if (typeof addFriendLinksInFooter === "function") {addFriendLinksInFooter();}}, 200)</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
-
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
   selectors: pjaxSelectors,
@@ -950,10 +445,10 @@ var pjax = new Pjax({
 
 document.addEventListener('pjax:send', function () {
   // removeEventListener scroll 
-  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
-  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
 
-  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  document.getElementById('rightside').classList.remove('rightside-show')
   
   if (window.aplayers) {
     for (let i = 0; i < window.aplayers.length; i++) {
@@ -983,7 +478,6 @@ document.addEventListener('pjax:complete', function () {
 
   GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
 
-  typeof chatBtnFn === 'function' && chatBtnFn()
   typeof panguInit === 'function' && panguInit()
 
   // google analytics
@@ -998,8 +492,8 @@ document.addEventListener('pjax:complete', function () {
   typeof Prism === 'object' && Prism.highlightAll()
 })
 
-document.addEventListener('pjax:error', (e) => {
+document.addEventListener('pjax:error', e => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div></body></html>
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
